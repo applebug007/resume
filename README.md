@@ -28,11 +28,6 @@ This project is for generating a bilingual (Chinese and English) resume using La
 
 ****
 
-### <a name="demo">Resume Sample</a>
-
-![Sample](https://github.com/houjp/resume/blob/master/imgs/demo.jpeg?raw=true)
-
-****
 
 ###  <a name="link">Reference Links</a>
 

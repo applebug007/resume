@@ -1,0 +1,62 @@
+% !TEX TS-program = xelatex
+% !TEX encoding = UTF-8 Unicode
+% !Mode:: "TeX:UTF-8"
+
+\documentclass{resume}
+\usepackage{zh_CN-Adobefonts_external} % Simplified Chinese Support using external fonts (./fonts/zh_CN-Adobe/)
+\usepackage{linespacing_fix} % Disable extra space before next section
+\usepackage{cite}
+\usepackage[colorlinks,linkcolor=blue]{hyperref}
+\usepackage{fontawesome} % Ensure this package is loaded for FontAwesome icons
+
+\begin{document}
+\pagenumbering{gobble} % Suppress displaying page number
+
+\name{Fuliang Xu}
+\vspace{2ex}
+\contactInfo{\href{mailto:trevorxu@berkeley.edu}{trevorxu@berkeley.edu}}{(+1) 628-306-8780}{}
+
+\section{\faGraduationCap\ Education}
+\datedsubsection{\textbf{University of California, Berkeley}}{Aug. 2018 -- Dec. 2024}
+\textit{Bachelor of Art} in Computer Science
+
+\section{\faSitemap\ Work Experience}
+
+\datedsubsection{\textbf{YumChina | Shanghai, China}}{Jan. 2021 -- May 2024}
+\begin{itemize}
+  \item Developed and maintained ETL pipelines for KFC’s sales and transactional data, ensuring accurate data transformation and seamless integration with downstream applications.
+  \item Implemented scalable Python scripts for data cleaning and transformation, significantly improving data quality and reliability.
+  \item Utilized SQL to design and manage databases in Hive, enabling efficient storage and querying of large datasets.
+  \item Led the development of a daily sales prediction model for over 5,000 KFC stores across China using ensemble learning, improving forecast accuracy by 20\% compared to the previous system.
+  \item Detected and addressed supply chain inefficiencies by analyzing seasonal patterns, reducing national supply underflow by 30\% through improved logistics planning.
+  \item Built regression models to analyze pricing sensitivity for Pizza Hut products, providing actionable insights for pricing strategy.
+  \item Collaborated with cross-functional teams on business analysis projects, including monitoring user engagement and assessing the impact of marketing initiatives.
+\end{itemize}
+
+\datedsubsection{\textbf{upSWOT | Berkeley, CA}}{Sep. 2019 -- Dec. 2020}
+\begin{itemize}
+  \item Worked on the eCommerce team of four interns and a mentor with a goal of using data to observe and test CRM and analyze how a client company could better maximize its profit.
+  \item Tracked issues, needs, and preferences of large companies to help lenders and insurers cross-sell more and in a highly automated way.
+  \item Utilized SQL to design and manage databases in Hive, enabling efficient storage and querying of large datasets.
+  \item Performed EDA and data cleaning on client datasets.
+  \item Used NumPy to help organize the tables extracted from the API.
+\end{itemize}
+
+\datedsubsection{\textbf{Coconut Island | Shanghai, China}}{June 2019 -- Aug. 2019}
+\begin{itemize}
+  \item In-game Pop-up and Website Development: Designed, developed, and maintained in-game pop-up web pages and multiple game-related websites using HTML, CSS, and JavaScript, ensuring consistent performance across devices and screen sizes.
+  \item User Experience and Performance Optimization: Enhanced player experience through the implementation of animations, responsive designs, and performance optimization techniques like code splitting and lazy loading for fast, smooth interactions.
+  \item Cross-team Collaboration and A/B Testing: Worked closely with game designers, back-end developers, and the marketing team to seamlessly integrate pop-ups within the game, conducted A/B testing, and optimized user engagement and conversion rates.
+  \item Backend Integration with Python Django: Leveraged Python Django to integrate and manage user data, providing personalized content and efficient data collection for enhanced user experience.
+\end{itemize}
+
+\section{\faCogs\ Skills}
+\begin{itemize}[parsep=0.5ex]
+  \item Proficient in Python, Java, HTML/CSS, JavaScript, Shell, SQL.
+  \item Experienced with Git, QEMU, Docker, AWS, GCP, Jenkins, Vivado, Unreal Engine 4, Hive, Pandas.
+  \item Strong knowledge of Linux, RISC-V, Spring Boot, Kafka, Gin, gRPC, React.js, Vue.js, Redis, MongoDB, SPDK.
+\end{itemize}
+
+\pagebreak
+
+\end{document}
